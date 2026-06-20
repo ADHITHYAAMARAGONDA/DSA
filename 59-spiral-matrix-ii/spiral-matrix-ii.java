@@ -24,13 +24,12 @@ class Solution {
             }
             bottom--;
         }
-        if(top<=bottom){
-        
+         
         for(int row=bottom;row>=top;row--){
             res[row][left]=ele++;
         }
         left++;
-        }
+        
 
 
         
