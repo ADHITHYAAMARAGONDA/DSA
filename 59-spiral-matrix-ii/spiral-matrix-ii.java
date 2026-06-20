@@ -18,12 +18,11 @@ class Solution {
                 res[row][right]=ele++;
              }
              right--;
-        if(left<=right){
-             for(int col=right;col>=left;col--){
+              for(int col=right;col>=left;col--){
                 res[bottom][col]=ele++;
             }
             bottom--;
-        }
+        
          
         for(int row=bottom;row>=top;row--){
             res[row][left]=ele++;
